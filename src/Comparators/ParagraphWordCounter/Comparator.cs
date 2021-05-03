@@ -35,7 +35,11 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         /// </summary>
         /// <returns> Los resultados de la coincidencia. </returns>
         public override ComparatorMatchingScore Run(){     
+<<<<<<< HEAD
+            // Este pedido está destinado a mejorar el rendimiento.
+=======
            // Este pedido está destinado a mejorar el rendimiento.
+>>>>>>> 07ac872fe639744e446c4a5e0e5cdf2421d12f0a
             ExcludeSampleExactMatches(); 
             ExcludeSamplePartialMatches(this.Left, 0.70f);  // TODO: el valor del umbral debe obtenerse de la configuración; comprobar si se puede quitar
             ExcludeSamplePartialMatches(this.Right, 0.70f);  // TODO: el valor del umbral debe obtenerse de la configuración; comprobar si se puede quitar
